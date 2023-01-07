@@ -8,14 +8,14 @@
  */
 int helperfunction(int num, int pSqrt)
 {
-	if ((pSqrt * pSgrt) == num)
+	if ((pSqrt * pSqrt) == num)
 	{
 		return (pSqrt);
 	}
 	else
 	{
 		if ((pSqrt * pSqrt) > num)
-			return (1);
+			return (-1);
 		else
 			return (helperfunction(num, pSqrt + 1));
 	}
